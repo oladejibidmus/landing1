@@ -60,7 +60,7 @@ const LandingPage = () => {
             <span className="font-bold text-xl tracking-tight">Diasporan</span>
           </div>
           <Button 
-            onClick={() => document.getElementById('signup').scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => document.getElementById("signup").scrollIntoView({ behavior: "smooth" })}
             className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300 rounded-md"
           >
             Join Waitlist
@@ -77,7 +77,7 @@ const LandingPage = () => {
         <div className="container max-w-6xl mx-auto px-4 py-12 md:py-20 relative">
           <div className="text-center space-y-6 max-w-3xl mx-auto">
             <div className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary mb-4 shadow-sm">
-              🚀 Join our growing community
+              Join our growing community
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60 leading-tight">
               A Platform Built for Immigrants—Helping You Find Jobs, Resources, and Support in the UK
@@ -88,7 +88,7 @@ const LandingPage = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8">
               <Button 
                 size="lg"
-                onClick={() => document.getElementById('signup').scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById("signup").scrollIntoView({ behavior: "smooth" })}
                 className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300 rounded-md"
               >
                 Join Waitlist
@@ -110,11 +110,11 @@ const LandingPage = () => {
           <div className="max-w-3xl mx-auto space-y-10">
             <div className="text-center space-y-4">
               <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60">
-                The Challenges We're Solving
+                The Challenges We&apos;re Solving
               </h2>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                 Moving to a new country is challenging enough. Finding the right opportunities 
-                and support shouldn't add to that stress.
+                and support shouldn&apos;t add to that stress.
               </p>
             </div>
 
@@ -175,7 +175,7 @@ const LandingPage = () => {
                 Our Solution
               </h2>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                We're building a platform that brings together everything you need to succeed in the UK—all in one place.
+                We&apos;re building a platform that brings together everything you need to succeed in the UK—all in one place.
               </p>
             </div>
 
@@ -223,8 +223,8 @@ const LandingPage = () => {
                 {status.submitted ? (
                   <Alert className="bg-green-50 border-green-200">
                     <AlertDescription className="text-green-800">
-                      Thank you for joining our waitlist! We'll keep you updated on our progress 
-                      and let you know when we're ready to launch.
+                      Thank you for joining our waitlist! We&apos;ll keep you updated on our progress 
+                      and let you know when we&apos;re ready to launch.
                     </AlertDescription>
                   </Alert>
                 ) : (
@@ -280,7 +280,7 @@ const LandingPage = () => {
                           htmlFor="feedback"
                           className="text-sm text-muted-foreground"
                         >
-                          I'm interested in providing feedback to help shape the platform
+                          I&apos;m interested in providing feedback to help shape the platform
                         </label>
                       </div>
                     </div>
